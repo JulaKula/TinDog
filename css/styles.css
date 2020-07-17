@@ -53,10 +53,6 @@ p {
 }
 #features {
   position: relative;
-  /* z-index: 1; */
-  /* it's not needed since position absolute in image already "removed" the image from the HTML flow */
-  /* bottom: 230px; */
-  /* not needed, features section was automatically moved up, just below the download buttons */
 }
 .feature-title {
   line-height: 1.2;
