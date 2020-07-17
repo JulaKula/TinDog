@@ -1,0 +1,105 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2, h3 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+p {
+  color: #8f8f8f;
+}
+.colored-sec {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-sec {
+  background-color: white;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.big-heading {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+.navbar {
+  margin-bottom: 4.5rem;
+  padding: 0;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-link {
+  font-size: 1.5rem;
+  margin: 30px;
+}
+#title .container-fluid {
+  padding: 3% 10% 8%;
+}
+.download-button {
+  margin: 10px;
+}
+.phone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  position: relative;
+  /* z-index: 1; */
+  /* it's not needed since position absolute in image already "removed" the image from the HTML flow */
+  /* bottom: 230px; */
+  /* not needed, features section was automatically moved up, just below the download buttons */
+}
+.feature-title {
+  line-height: 1.2;
+  padding: 10px;
+}
+.feature-icon {
+  color: #ef8172;
+  font-size: 3rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+.testimonial-carousel {
+  background-color: #ef8172;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+.icon-social {
+  margin: 10px;
+}
+
+@media (max-width: 991px) {
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+}
+  }
+@media (min-width: 992px) {
+  #title {
+    text-align: left;
+}
+}
